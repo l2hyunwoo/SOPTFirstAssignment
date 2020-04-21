@@ -9,12 +9,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activiry_relativelogin)
-
-        bt_login.setOnClickListener{
-            if(et_mail.text.isNullOrBlank() || et_password.text.isNullOrBlank()){
-//                Toast.makeText(t
-            }
-        }
+        setContentView(R.layout.activity_introduce)
     }
 }
